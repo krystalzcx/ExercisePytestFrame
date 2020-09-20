@@ -12,6 +12,7 @@ matrix:
 install:
   - pip install poetry
   - poetry install -vvv
+
 script:
   - python -m unittest test_travis.py
 after_success:

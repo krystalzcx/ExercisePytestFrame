@@ -1,4 +1,4 @@
-[tool.poetry]
+                [tool.poetry]
 name = "ExercisePytestFrame"
 version = "0.1.0"
 description = ""
@@ -6,6 +6,8 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
+requests = "^2.24"
+coverage = "^5.3"
 
 [tool.poetry.dev-dependencies]
 
